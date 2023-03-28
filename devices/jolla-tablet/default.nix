@@ -49,6 +49,10 @@
     };
   };
 
+  boot.kernelModules = [
+    "goodix" # won't load automatically?
+  ];
+
   hardware.firmware =
   [
     (pkgs.callPackage ./firmware/libreelec-jolla_tablet-firmware.nix {})
