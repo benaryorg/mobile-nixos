@@ -43,7 +43,8 @@
         "sd_mod"
         "sdhci_acpi"
 
-        "brcmfmac4330"
+        "brcmfmac4330" # wifi
+        "goodix" # touchscreen
       ];
     };
   };
