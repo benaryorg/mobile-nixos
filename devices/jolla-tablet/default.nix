@@ -29,7 +29,14 @@
       useNixOSKernel = lib.mkDefault true;
       additionalModules =
       [
+        "uhci_hcd"
+        "ehci_hcd"
+        "ehci_pci"
+        "ohci_hcd"
+        "ohci_pci"
+        "xhci_hcd"
         "xhci_pci"
+
         "dwc3_pci"
         "usb_storage"
         "usbhid"
